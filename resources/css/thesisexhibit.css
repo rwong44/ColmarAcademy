@@ -1,0 +1,38 @@
+/* Video Section*/
+div {
+  border: solid 1px black;
+}
+
+
+/* Video Sectino */
+
+#thesis {
+  margin-top: 4rem;
+  position: relative;
+  background-color: white;
+  padding: 2rem 0 0 1.5rem;
+  display: flex;
+  width: 100%;
+}
+
+video-main {
+  width: 60%;
+}
+
+video-main h1 {
+  text-align: center;
+  align-items: center;
+}
+
+video {
+  width: 100%;
+}
+
+@media only screen and (max-width: 760px) {
+  .side-main {
+    Display: none;
+  }
+  .video-main-content {
+    display: none;
+  }
+}

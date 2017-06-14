@@ -1,0 +1,72 @@
+/* Start Learning Section */
+
+.start-learning-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 32px;
+  background-color: white;
+  text-align: center;
+}
+
+.start-learning-main h1 {
+  padding: 32px 0;
+  text-align: center;
+}
+
+.class-text h2 {
+  color: black;
+  line-height: 8px;
+}
+
+.class-text {
+  color: black;
+  font-size: 1rem;
+  line-height: 1.2rem;
+}
+
+.class-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.learn-class {
+  background-color: white;
+  margin: 0 1rem 1rem 1rem;
+  max-width: 400px;
+}
+
+.class-text {
+  max-width: 100%;
+  display: block;
+  justify-content: center;
+  margin-left: 16px;
+}
+
+.class-image img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 760px) {
+  .start-learning-main {
+    display: block;
+    flex-direction: column;
+    width: 100%;
+  }
+  .class-boxes {
+    display: block;
+  }
+
+  .learn-class {
+    background-color: gray;
+    max-width: 100%;
+    height: 2rem;
+  }
+  .class-image img {
+    display: none;
+  }
+  .learn-class p {
+    display: none;
+  }
+}
