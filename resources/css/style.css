@@ -12,8 +12,8 @@
 
 /* Header */
 
-header {
-  position:
+header { 
+  position: absolute;
   width: 100%;
   flex-grow: 1;
   background-color: white;
@@ -296,7 +296,7 @@ header nav ul {
 .class-image img {
   width: 100%;
 }
-
+}
 @media only screen and (max-width: 760px) {
   .start-learning-main {
     display: block;
@@ -389,4 +389,5 @@ nav ul a {
 
       footer ul a {
         display: none;
+  }
 }
